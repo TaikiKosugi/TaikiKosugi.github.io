@@ -1,3 +1,57 @@
 h1 {
 	color: red;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+body {
+	background-image: url(flower-back1262.jpg);
+}
+
+h3 {
+	font-family: Impact;
+}
+
+footer {
+	text-align: center;
+	width: 50%;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 3px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.phone {
+	font-size: .8em;
+}
+
+.theater_name {
+	font-family: "Apple Chancery";
+}
+
+a:visited {
+	color: gray;
+}
+
+#bottom {
+	width: 200px;
+	color: silver;
+	border-radius: 4px;	
+	text-align: center;	
+	background-color: blue; 
+	font-size: .8em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: .5em;
+  }
+}
+
+table {
+	 border: 1px solid blue;
 }
